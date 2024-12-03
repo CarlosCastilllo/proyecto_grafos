@@ -1,0 +1,39 @@
+"""
+Configuraciones y constantes del sistema
+"""
+
+from .settings import (
+    APP_SETTINGS,
+    NETWORK_SETTINGS,
+    VISUALIZATION_SETTINGS,
+    SIMULATION_SETTINGS,
+    FILE_SETTINGS,
+    VALIDATION_SETTINGS,
+    REPORT_SETTINGS
+)
+
+# Configuraciones de desarrollo
+DEBUG = True
+LOG_LEVEL = 'DEBUG'
+
+# Constantes globales
+MAX_NODES = 100
+MAX_CONNECTIONS = 200
+DEFAULT_LANGUAGE = 'es'
+DEFAULT_THEME = 'clam'
+
+__all__ = [
+    'APP_SETTINGS',
+    'NETWORK_SETTINGS',
+    'VISUALIZATION_SETTINGS',
+    'SIMULATION_SETTINGS',
+    'FILE_SETTINGS',
+    'VALIDATION_SETTINGS',
+    'REPORT_SETTINGS',
+    'DEBUG',
+    'LOG_LEVEL',
+    'MAX_NODES',
+    'MAX_CONNECTIONS',
+    'DEFAULT_LANGUAGE',
+    'DEFAULT_THEME'
+]
